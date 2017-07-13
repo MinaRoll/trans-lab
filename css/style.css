@@ -1,1 +1,20 @@
 /* YeyeYeee código aquí */
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	background-color: #454244;
+
+}
+.logo-registro{
+	text-align: center;
+}
+
+.logo-imagen img{
+	width: 35%;
+	height: auto;
+}
+.text-inicio h1{
+	font-weight: bold;
+	font-size: 40px;
+	color: #DE9900;
+}
