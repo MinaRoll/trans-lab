@@ -1,9 +1,9 @@
 <!-- Wowowoyipiyouuu tu código acá -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Trans Lab</title>
+<head>  
+	<title>Trans Lab</title>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,18 +17,40 @@
 	<div class="container-fluid logo-registro">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 logo-imagen">
-     			<img src="docs/imagen.png" alt="logo-imagen">
-     		</div>
-     	</div>
-     	<div class="row">
-     		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-inicio">
-        		<h1>TRANS-LAB</h1>
-        	</div>
-        </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+				<img src="docs/imagen.png" alt="logo">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 texto-inicio">
+				<h1>TRANS-LAB</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid formulario-inicio">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-inicio">
+				<input type="text" id="mail" placeholder="Correo Electrónico">
+				<p id='mail-invalido' class="invalido">Correo electrónico inválido</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-inicio">
+				<input type="text" id="pass" placeholder="Contraseña">
+				<p id='pass-invalido' class="invalido">Contraseña con un máximo de 8 números</p>
+				<a href="#" id="iniciar-sesion"><button id="btn-inicio">INICIAR SESIÓN</button></a>
+				<p class="recuperar-pass">¿Olvidaste tu contraseña?</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-registro">
+			<div class="row">
+				<p class="registrate">¿No tienes cuenta? <a href="#">Registrate</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/main.js" ></script>
 </body>
 </html>

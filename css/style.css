@@ -13,8 +13,38 @@ body{
 	width: 35%;
 	height: auto;
 }
-.text-inicio h1{
+.texto-inicio h1{
 	font-weight: bold;
 	font-size: 40px;
+	color: #DE9900;
+}
+.formulario-inicio{
+	text-align: center;
+	
+}
+.form-inicio{
+	text-align: center;
+}
+.form-inicio input, .form-inicio button{
+	width: 80%;
+	height: 50px;
+	margin: auto;
+	display: block;
+}
+.invalido{
+	display: none;
+	color: white;
+}
+#btn-inicio{
+	background-color: #DE9900;
+	color: #454244;
+}
+.recuperar-pass{
+	color: white;
+}
+.registrate{
+	color: white;
+}
+.registrate a{
 	color: #DE9900;
 }
