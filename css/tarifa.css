@@ -1,4 +1,4 @@
-body #menu{
+body #tarifa{
     font-family: 'Raleway', sans-serif;
     height: 100vh;
     background-color: #a9a9ab;
@@ -65,15 +65,15 @@ header h3{
     cursor: pointer;
 }
 .open-menu {
-        height: 100vh;
+        height: 95vh;
 }
 .show {
     background-image: url("../img/");
-    background-size: 15px;
+    background-size: 20px;
 }
 .show + .items {
     width: 40vw;
-    height: 100vh;
+    height: 95vh;
     background-image: none;
     position: absolute;
     opacity: .5;
@@ -134,4 +134,14 @@ header h3{
     background-color: #DE9900;
     color: white;
     font-size: 1.5em;
+}
+.saldo *{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin: 20px;n
+}
+#btn-saldo{
+    background-color: #DE9900;
+    color: white;
 }
