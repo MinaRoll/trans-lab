@@ -1,0 +1,129 @@
+body #menu{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background-color: #D1C9D1;
+}
+header{
+    background-color: #414143;
+    height: 80px;
+}
+header h3{
+    color: white;
+    text-align: center;
+}
+.menu-items {
+    background-color: white;
+    width: 0;
+    overflow-x: hidden;
+    transition: .5s ease all;
+    display: block;
+    height: 100vh;
+    float: left;
+    padding: 2em 0 0;
+}
+.menu-items li {
+    list-style: none;
+    padding: 1em 0;
+    margin: 0 1em;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.show.menu-items li {
+    opacity: 1;
+}
+.menu-items li a {
+    text-decoration: none;
+    color: #333;
+}
+.menu-items li a:hover,
+.menu-items li a:focus,
+.menu-items li a.active {
+    color: #FCAD00;
+}
+.menu-items li a span.iconos {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 .5em 0 .25em;
+}
+.opciones {
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 25px;
+    background-size: 25px;
+    text-indent: -9999em;
+    transition: none;
+    margin: 1em;
+    opacity: 0;
+}
+.opciones:hover {
+    cursor: pointer;
+}
+.open-menu {/*****************/
+        height: 100vh;
+}
+.show {
+    background-image: url("../img/");
+    background-size: 15px;
+}
+.show + .items {
+    width: 40vw;
+    height: 100vh;
+    background-image: none;
+    position: absolute;
+    opacity: .5;
+    margin: 0;
+}
+#menu-side {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    min-height: 100vh;
+}
+#menu-side > * {
+    vertical-align: top;
+}
+#elemento {
+    float: left;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    transition: .5s ease all;
+}
+.show.menu-items {
+    width: 60vw;
+}
+.show + .opciones {
+    width: 40vw;
+    height: 100vh;
+    background-image: none;
+    left: 60vw;
+    opacity: .5;
+    transition: .3s all ease-in-out;
+}
+.show + .opciones + #elemento {
+    width: 40vw;
+    transition: .5s all ease;
+}
+.iconos{
+    width: 25px;
+    margin: 0;
+    display: inline-block;
+}
+.fa{
+    color: #DE9900;
+}
+.boton-menu{
+    width: 90%;
+    height: 50px;
+    display:inline-block;
+    background-color: #DE9900;
+    color: white;
+    font-size: 1.5em;
+
+}
