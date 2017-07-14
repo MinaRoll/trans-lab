@@ -25,7 +25,7 @@ $(document).ready(function(){
 	
 
 		$.ajax({
-			url : 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json',
+			url : 'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json',
 			type : 'GET',
 			datatype : 'json',
 			data : {'bip': calc}

@@ -11,19 +11,19 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/tarifa.css">
-</head>
-<body id="tarifa">
+	<link rel="stylesheet" type="text/css" href="css/saldo.css">
+</head> 
+<body>
 	<menu id="menu-side">
 		<ul id="menu-items" class="menu-items">
-			<li>  
-				<a href="saldo.html">
+			<li>
+				<a href="saldo.html" class="active">
 					<div class="iconos"><i class="fa fa-usd" aria-hidden="true"></i></div>
 					<span>Ver Saldo</span>
 				</a>
 			</li>
 			<li>
-				<a href="tarifa.html" class="active">
+				<a href="tarifa.html">
 					<div class="iconos"><i class="fa fa-calculator" aria-hidden="true"></i></div>
 					<span>Calcular Tarifa</span>
 				</a>
@@ -57,45 +57,34 @@
 				</div>
 				<h3>TRANS-LAB</h3>
 				
-			</div>
+			</div> 
 		</div>
 	</header>
-
-	<section class="calcular container-fluid">
+	<section class=" calcular container-fluid ">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ver-saldo">
-				<input type="text" id="input-tarjeta">
-				<div class="seleccion">
-					<select name="tarjeta" id="select">
-						<option value="value1" disabled selected>Tarjeta Bip</option> 
-						<option value="18729406">18729406</option> 
-						<option value="18729423">18729423</option>
-						<option value="18729415">18729415</option>
-					</select>
-					<select name="tarifa" id="tarifa-horario">
-						<option value="value1" disabled selected>Tarifa</option> 
-						<option value="740">Horario Alta: $740</option>
-						<option value="680">Horario Media: $680</option>
-						<option value="640">Horario Baja: $640</option>
-	
-					</select>
-				</div>
-				<button id="btn-saldo">CALCULAR</button>
+				<input type="text" id="input-ver" placeholder="Número Tarjeta">
+				<select name="tarjeta" id="select">
+					<option value="value1" disabled selected>Choose your option</option> 
+				</select>
+				<button id="btn-saldo">VER SALDO</button>
 			</div>
 		</div>
 	</section>
-	<section class="saldo-final container-fluid">
+	<section class="saldo container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tarifa-final">
-				
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="saldo-final">
+					
+				</div>
 			</div>
 		</div>
 	</section>
 	
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Bootstrap -->
+	<!-- Bootstrap - JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/tarifa.js" ></script>
+	<script src="js/saldo.js" ></script>
 </body>
 </html>
